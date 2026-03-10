@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass Guitarist Booking App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bass Guitarist Booking</h1>
+        <p>Book your favorite bass guitarist for any event!</p>
+    </header>
+
+    <section class="booking-form">
+        <h2>Book a Bass Guitarist</h2>
+        <form id="bookingForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="date">Event Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="eventType">Event Type:</label>
+            <select id="eventType" name="eventType" required>
+                <option value="">--Select Event--</option>
+                <option value="wedding">Wedding</option>
+                <option value="party">Party</option>
+                <option value="concert">Concert</option>
+                <option value="church">Church Event</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section class="bass-guitar-info">
+        <h2>Why Choose Our Bassists?</h2>
+        <p>Professional bass guitarists available for any genre: Afrobeat, Gospel, Jazz, Funk, and more!</p>
+        <img src="images/bass-guitar.jpg" alt="Bass Guitar" />
+    </section>
+<section class="previous-bookings">
+    <h2>Previous Bookings</h2>
+    <ul id="bookingList"></ul>
+</section>
+    <footer>
+        <p>&copy; 2026 Bass Guitarist Booking App. All rights reserved.</p>
+    </footer>
+</body>
+<!-- At the bottom of body, before </body> -->
+ <script src="js/app.js"></script>
+</html>
