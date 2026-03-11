@@ -13,5 +13,8 @@ This is a simple web application that allows users to book a bass guitarist for 
 - CSS
 - JavaScript
 
+- Live Demo:
+- https://victorfirstborn.github.io/Bass-booking-app-/
+
 ## Author
 Victor Ekpenyong Akpan
